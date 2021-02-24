@@ -25,29 +25,34 @@ h1, h2, h3 {
   }
 }
 
-header {
-  grid-template-columns: 2fr;
-  margin: 5% 5% 0% 5%;
-}
-
-#photo_id {
-  grid-template-columns: 1fr;
-  border: 3px gray outset; 
-  margin: 10%;
-}
-
 #wrapper {
   background: linear-gradient(to bottom, #CCFFCC 0%, #6699FF 100%) ;
   background-attachment: fixed, fixed, fixed, scroll;
-  background-size: auto, auto, auto, cover;
+  background-size: cover;
   box-shadow: 0em  0.3em 1em #000;
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin: auto;
-  width: 70%;
+  width: 100%;
   max-width: 1180px;
   padding: 10px; 
   overflow: auto;
+}
+
+header {
+  grid-template-columns: 2fr;
+  padding: 5% 5% 0% 5%;
+}
+
+.photo_id {
+  grid-template-columns: 1fr;
+  border: 3px gray outset; 
+  margin: 10% 0 10% 25%;
+  border-radius: 1em;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .element1 {
@@ -89,10 +94,6 @@ h3 {
 	font-size: 2em;
 	color: white; text-shadow: black 0.1em 0.1em 0.2em
 	/* color: #014869; */ 
-}
-
-section {
-  padding: 20px;
 }
 
 h3.aside {
