@@ -1,5 +1,4 @@
     p,
-    nav,
     ul {
         color: navy;
     }
@@ -39,7 +38,7 @@
     }
     
     header {
-        padding: 5% 5% 0% 5%;
+        padding: 3% 5% 0% 5%;
     }
     
     .photo_id {
@@ -111,11 +110,12 @@
     }
     
     ul {
-        list-style-type: none;
+    padding-left: 0;
     }
     
     footer {
         text-align: center;
+        margin-top: 10px;
     }
     
     a:hover {
