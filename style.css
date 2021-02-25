@@ -1,123 +1,124 @@
-p,
-nav,
-ul {
-    color: navy;
-}
-
-.comment {
-    color: darkgreen;
-    padding-top: 10px;
-}
-
-body {
-    font-family: 'HelveticaNeue';
-    font-size: 1.1em;
-    background: #a9b1b4;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Z003';
-}
-
-#wrapper {
-    background: linear-gradient(to bottom, #CCFFCC 0%, #6699FF 100%);
-    background-attachment: fixed, fixed, fixed, scroll;
-    background-size: cover;
-    box-shadow: 0em 0.3em 1em #000;
-    display: grid;
-    margin: auto;
-    max-width: 1180px;
-    padding: 10px;
-    overflow: auto;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-header {
-    padding: 5% 5% 0% 5%;
-}
-
-.photo_id {
-    border: 3px gray outset;
-    margin: 10% 0 10% 25%;
-    border-radius: 1em;
-}
-
-.element1 {
-    display: inline-block;
-    position: relative;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 5% 5% 5% 5%;
-    vertical-align: top;
-    text-align: justify;
-}
-
-.element2 {
-    display: inline-block;
-    position: relative;
-    justify-content: left;
-    flex-wrap: wrap;
-    padding: 5% 5% 5% 5%;
-    vertical-align: top;
-    max-width: 380px;
-}
-
-.comment {
-    padding: 5% 5% 0% 10%;
-}
-
-section {
-    margin-bottom: 5%;
-    margin-left: 5%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    margin-bottom: 20px;
-}
-
-h1 {
-    justify-content: left;
-    text-align: center;
-    font-size: 3em;
-    color: #125F84;
-    text-shadow: rgb(9, 82, 85) 0.1em 0em 0.15em
-}
-
-h2 {
-    justify-content: left;
-    text-align: center;
-    font-size: 2em;
-    color: #125F84;
-    text-shadow: rgb(9, 82, 85) 0.1em 0em 0.15em
-}
-
-h3 {
-    text-align: center;
-    font-size: 2em;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em
-    /* color: #014869; */
-}
-
-h3.aside {
-    text-align: left;
-}
-
-.comment {
-    text-align: justify;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: green;
-}
+    p,
+    nav,
+    ul {
+        color: navy;
+    }
+    
+    .comment {
+        color: darkgreen;
+        padding-top: 10px;
+    }
+    
+    body {
+        font-family: 'HelveticaNeue';
+        font-size: 1.1em;
+        background: #a9b1b4;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-family: 'Z003';
+    }
+    
+    #wrapper {
+        background: linear-gradient(to bottom, #CCFFCC 0%, #6699FF 100%);
+        background-attachment: fixed, fixed, fixed, scroll;
+        background-size: cover;
+        box-shadow: 0em 0.3em 1em #000;
+        display: grid;
+        margin: auto;
+        max-width: 1180px;
+        padding: 10px;
+        overflow: auto;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header {
+        padding: 5% 5% 0% 5%;
+    }
+    
+    .photo_id {
+        border: 3px gray outset;
+        margin: 10% 0 10% 25%;
+        border-radius: 1em;
+    }
+    
+    .element1 {
+        display: inline-block;
+        position: relative;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 5% 5% 5% 5%;
+        vertical-align: top;
+        text-align: justify;
+    }
+    
+    .element2 {
+        display: inline-block;
+        position: relative;
+        justify-content: left;
+        flex-wrap: wrap;
+        padding: 5% 5% 5% 5%;
+        vertical-align: top;
+        max-width: 380px;
+    }
+    
+    .comment {
+        padding: 5% 5% 0% 10%;
+        text-align: justify;
+    }
+    
+    section {
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        justify-content: left;
+        text-align: center;
+        font-size: 3em;
+        color: #125F84;
+        text-shadow: rgb(9, 82, 85) 0.1em 0em 0.15em
+    }
+    
+    h2 {
+        justify-content: left;
+        text-align: center;
+        font-size: 2em;
+        color: #125F84;
+        text-shadow: rgb(9, 82, 85) 0.1em 0em 0.15em
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 2em;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em
+        /* color: #014869; */
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color: green;
+    }
