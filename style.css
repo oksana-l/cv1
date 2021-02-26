@@ -1,25 +1,22 @@
-    p,
-    ul {
+    p, ul {
         color: navy;
     }
-    
+
     .comment {
         color: darkgreen;
         padding-top: 10px;
     }
-    
+
     body {
         font-family: 'HelveticaNeue';
         font-size: 1.1em;
         background: #a9b1b4;
     }
-    
-    h1,
-    h2,
-    h3 {
+
+    h1, h2, h3 {
         font-family: 'Z003';
     }
-    
+
     #wrapper {
         background: linear-gradient(to bottom, #CCFFCC 0%, #6699FF 100%);
         background-attachment: fixed, fixed, fixed, scroll;
@@ -31,22 +28,28 @@
         padding: 10px;
         overflow: auto;
     }
-    
+
     .container {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
     }
-    
+
     header {
         padding: 3% 5% 0% 5%;
     }
-    
+
+    a {
+        padding: 5% 5% 0% 5%;
+    }
+
     .photo_id {
         border: 3px gray outset;
-        margin: 10% 0 10% 25%;
         border-radius: 1em;
+        margin-top: 10%;
+        margin-left: 15%;
     }
-    
+
     .element1 {
         display: inline-block;
         position: relative;
@@ -56,7 +59,7 @@
         vertical-align: top;
         text-align: justify;
     }
-    
+
     .element2 {
         display: inline-block;
         position: relative;
@@ -66,25 +69,21 @@
         vertical-align: top;
         max-width: 380px;
     }
-    
+
     .comment {
         padding: 5% 5% 0% 10%;
         text-align: justify;
     }
-    
+
     section {
         margin-bottom: 5%;
         margin-left: 5%;
     }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
+
+    h1, h2, h3, h4, h5 {
         margin-bottom: 20px;
     }
-    
+
     h1 {
         justify-content: left;
         text-align: center;
@@ -92,7 +91,7 @@
         color: #125F84;
         text-shadow: rgb(9, 82, 85) 0.1em 0em 0.15em
     }
-    
+
     h2 {
         justify-content: left;
         text-align: center;
@@ -100,7 +99,7 @@
         color: #125F84;
         text-shadow: rgb(9, 82, 85) 0.1em 0em 0.15em
     }
-    
+
     h3 {
         text-align: center;
         font-size: 2em;
@@ -108,16 +107,16 @@
         text-shadow: black 0.1em 0.1em 0.2em
         /* color: #014869; */
     }
-    
+
     ul {
-    padding-left: 0;
+        padding-left: 0;
     }
-    
+
     footer {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 15px;
     }
-    
+
     a:hover {
         text-decoration: underline;
         color: green;
