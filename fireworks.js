@@ -29,7 +29,7 @@ $(function () {
         /*=============================================================================*/
         self.init = function () {
             self.canvas = document.createElement('canvas');
-            self.canvas.width = self.cw = document.body.clientWidth * 0.8;
+            self.canvas.width = self.cw = document.body.clientWidth * 0.7;
             self.canvas.height = self.ch = document.body.clientHeight * 0.8;
             self.particles = [];
             self.partCount = 150;
@@ -124,7 +124,7 @@ $(function () {
                 if (!hitTest(0, 0, self.cw, self.ch, p.x - p.radius, p.y - p.radius, p.radius * 2, p.radius * 2) || p.alpha < .05) {
                     self.particles.splice(i, 1);
                 }
-            };
+            }
         };
 
         /*=============================================================================*/
@@ -154,7 +154,7 @@ $(function () {
                         self.ctx.fill();
                     }
                 }
-            };
+            }
         };
 
         /*=============================================================================*/
@@ -196,7 +196,7 @@ $(function () {
                 var f = self.fireworks[i];
                 self.ctx.lineWidth = f.lineWidth;
 
-                vx = Math.cos(f.angle) * f.speed,
+                var vx = Math.cos(f.angle) * f.speed,
                     vy = Math.sin(f.angle) * f.speed;
                 f.speed *= 1 + f.acceleration;
                 f.coordLast[2].x = f.coordLast[1].x;
@@ -242,7 +242,7 @@ $(function () {
                     self.createParticles(f.targetX, f.targetY, f.hue);
                     self.fireworks.splice(i, 1);
                 }
-            };
+            }
         };
 
         /*=============================================================================*/
@@ -284,7 +284,7 @@ $(function () {
                     self.ctx.stroke();
                     self.ctx.restore();
                 }
-            };
+            }
         };
 
         /*=============================================================================*/
@@ -342,7 +342,7 @@ $(function () {
             self.updateParticles();
             self.drawFireworks();
             self.drawParticles();
-            stats.update();
+            //stats.update();
         };
 
         self.init();
