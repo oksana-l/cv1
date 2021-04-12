@@ -30,7 +30,7 @@ $(function () {
         self.init = function () {
             self.canvas = document.createElement('canvas');
             self.canvas.width = self.cw = document.body.clientWidth * 0.7;
-            self.canvas.height = self.ch = document.body.clientHeight * 0.8;
+            self.canvas.height = self.ch = document.body.clientHeight * 0.75;
             self.particles = [];
             self.partCount = 150;
             self.fireworks = [];
