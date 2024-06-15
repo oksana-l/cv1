@@ -30,7 +30,7 @@ $(function () {
         self.init = function () {
             self.canvas = document.createElement('canvas');
             self.canvas.width = self.cw = document.body.clientWidth * 0.7;
-            self.canvas.height = self.ch = document.body.clientHeight * 0.75;
+            self.canvas.height = self.ch = document.body.clientHeight * 0.7;
             self.particles = [];
             self.partCount = 150;
             self.fireworks = [];
@@ -294,8 +294,8 @@ $(function () {
             $(window).on('resize', function () {
                 clearTimeout(self.timeout);
                 self.timeout = setTimeout(function () {
-                    self.canvas.width = self.cw = document.body.clientWidth * 0.8;
-                    self.canvas.height = self.ch = document.body.clientHeight * 0.8;
+                    self.canvas.width = self.cw = document.body.clientWidth * 0.7;
+                    self.canvas.height = self.ch = document.body.clientHeight * 0.7;
                     self.ctx.lineCap = 'round';
                     self.ctx.lineJoin = 'round';
                 }, 100);
