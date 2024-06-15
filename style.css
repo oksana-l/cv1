@@ -1,11 +1,12 @@
     canvas {
-    cursor: crosshair;
-    display: block;
-    left: 15%;
-    position: absolute;
-    top: 0;
-    z-index: 2;
-}
+        cursor: crosshair;
+        display: block;
+        left: 15%;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+    }
+
     p, ul {
         color: navy;
     }
